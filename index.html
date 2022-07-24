@@ -20,12 +20,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="/styled.css">
-
     <!-- icons cdn -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
+    <!-- Swiper Js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/styled.css">
 
 </head>
 
@@ -490,9 +492,9 @@
 
     <section class="testimonials">
         <h1>Testimonial</h1>
-        <div class="container">
-            <div class="carousel">
-                <div class="testimonial">
+        <div class="container swiper">
+            <div class="carousel swiper-wrapper">
+                <div class="testimonial swiper-slide">
                     <div class="head">
                         <div class="profile-area">
                             <div class="avatar">
@@ -517,7 +519,7 @@
                     </p>
                 </div>
                 <!-- END OF TESTEMONIAL -->
-                <div class="testimonial">
+                <div class="testimonial swiper-slide">
                     <div class="head">
                         <div class="profile-area">
                             <div class="avatar">
@@ -539,7 +541,7 @@
                     <p>É isso aí Arthur! Gratidão é uma dádiva, e esforço é com a gente Sucesso!</p>
                 </div>
                 <!-- END OF TESTEMONIAL -->
-                <div class="testimonial">
+                <div class="testimonial swiper-slide">
                     <div class="head">
                         <div class="profile-area">
                             <div class="avatar">
@@ -564,7 +566,7 @@
                     </p>
                 </div>
                 <!-- END OF TESTEMONIAL -->
-                <div class="testimonial">
+                <div class="testimonial swiper-slide">
                     <div class="head">
                         <div class="profile-area">
                             <div class="avatar">
@@ -590,8 +592,16 @@
                 </div>
                 <!-- END OF TESTEMONIAL -->
             </div>
+            <!-- <div class="swiper-pagination"></div> -->
+            <div class="swiper-scrollbar">
+                <div class="swiper-scrollbar-drag"></div>
+            </div>
         </div>
     </section>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
 
 </body>
 
