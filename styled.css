@@ -402,16 +402,24 @@ section.skills .item .progress-bar {
 
 section.skills .item .progress-bar .progress {
     height: 100%;
-    width: 92%;
+    width: 20%;
     background: var(--color-primary);
 }
 
 section.skills .item:nth-child(2) .progress-bar .progress {
-    width: 88%;
+    width: 50%;
 }
 
 section.skills .item:nth-child(3) .progress-bar .progress {
-    width: 75%;
+    width: 50%;
+}
+
+section.skills .item:nth-child(4) .progress-bar .progress {
+    width: 30%;
+}
+
+section.skills .item:nth-child(5) .progress-bar .progress {
+    width: 45%;
 }
 
 /* ======================= SERVICES ======================= */
