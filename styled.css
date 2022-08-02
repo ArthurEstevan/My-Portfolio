@@ -25,7 +25,7 @@
 
 ::-webkit-scrollbar {
     width: 10px;
-    background: var(--color-primary-light);
+    background: var(--color-white);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -377,15 +377,10 @@ section.skills .skill .item {
     align-items: start;
     gap: 1rem;
     padding: 1.6rem;
-    background: var(--color-light);
     margin-bottom: 0.3rem;
     transition: var(--transition);
 }
 
-
-section.skills .skill .item:hover {
-    background: var(--color-white);
-}
 
 section.skills .skill .progress-area {
     width: 100%;
@@ -619,15 +614,15 @@ section.contact form textarea::placeholder {
 section.contact form .btn {
     width: 14rem;
     border: none;
-    background: var(--color-white);
-    color: var(--color-black);
+    background: var(--color-primary);
+    color: var(--color-white);
     margin: 2rem auto 0;
 }
 
 section.contact form .btn:hover {
-    background: var(--color-primary);
+    background: var(--color-white);
     cursor: pointer;
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 /* ======================= FOOTER ======================= */
@@ -825,17 +820,17 @@ footer .copyright {
         left: calc(50% - 1.5rem);
         top: -1.5rem;
     }
-    
+
     section.landing .profile-area .outer-circle span:nth-child(2) {
         right: -1.5rem;
         top: calc(50% - 1.5rem);
     }
-    
+
     section.landing .profile-area .outer-circle span:nth-child(3) {
         left: -1.5rem;
         top: calc(50% - 1.5rem);
     }
-    
+
     section.landing .profile-area .outer-circle span:nth-child(4) {
         bottom: -1.5rem;
         left: calc(50% - 1.5rem);
@@ -894,8 +889,8 @@ footer .copyright {
         margin: 0.5rem auto 0;
     }
 
-    /* ======================= CONTACT ======================= */ 
-    
+    /* ======================= CONTACT ======================= */
+
     footer .container {
         flex-direction: column;
         gap: 3rem;
@@ -906,4 +901,56 @@ footer .copyright {
         text-align: center;
         gap: 1.4rem;
     }
+}
+
+/* ======================= DARK MODE ======================= */
+
+.black-mode {
+    background-color: var(--color-black) !important;
+    color: var(--color-light) !important;
+    border: none;
+}
+
+.h1 h1 {
+    color: var(--color-light) !important;
+}
+
+.h2 h2 {
+    color: var(--color-light) !important;
+}
+
+.h3 h3 {
+    color: var(--color-light) !important;
+}
+
+.h4 h4 {
+    color: var(--color-light) !important;
+}
+
+.h5 h5 {
+    color: var(--color-light) !important;
+}
+
+.h5 h6 {
+    color: var(--color-light) !important;
+}
+
+.ul ul li a {
+    color: var(--color-light) !important;
+}
+
+.efeito ul li a:hover {
+    color: var(--color-primary) !important;
+}
+
+.footer ul li a {
+    color: var(--color-light) !important;
+}
+
+.circle {
+    background-color: var(--color-black) !important;
+}
+
+.media-social {
+    background-color: var(--color-black) !important;
 }
