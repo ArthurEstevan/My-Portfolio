@@ -42,6 +42,7 @@
             <a href="#">
                 <h3>Developer</h3>
             </a>
+
             <ul>
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -49,12 +50,20 @@
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Let's Talk</a></li>
-
-                <input type="checkbox" onclick="darkMode()">
-                <label></label>
-
-
+                <label>
+                    <input class='toggle-checkbox' onclick="modificador()" type='checkbox'></input>
+                    <div class='toggle-slot'>
+                      <div class='sun-icon-wrapper'>
+                        <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"></div>
+                      </div>
+                      <div class='toggle-button'></div>
+                      <div class='moon-icon-wrapper'>
+                        <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"></div>
+                      </div>
+                    </div>
+                </label>                  
             </ul>
+
             <button id="menu-btn"><span class="material-symbols-outlined">menu</span></button>
             <button id="close-btn"><span class="material-symbols-outlined">close</span></button>
         </div>
@@ -667,7 +676,15 @@
 
     <!-- swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"> </script>
+
+    <!-- Jquery -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+
+    <!-- Java main -->
     <script src="./main.js"></script>
+
 
 </body>
 
