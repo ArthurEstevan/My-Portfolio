@@ -35,10 +35,3 @@ A good portfolio brings several advantages to its owner. He is literally a compe
 
 ## 📚 _References_ 
 > Sites where I got the exercises, I will also leave repositories to help you do the exercises.
-
-1. [Simples exercises in HTML]()
-2. [Difficult exercises in HTML]()
-3. [My help repository]()
-4. [Teacher help repository]()
-5. [Learning ]()
-6. [Learning ]()
